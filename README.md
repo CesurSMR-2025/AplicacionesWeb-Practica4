@@ -40,6 +40,21 @@ Los metodos más comunes para seleccionar elementos del DOM son los llamados "se
 - `getElementById(id)`: Selecciona un elemento por su ID.
 - `getElementsByClassName(className)`: Selecciona todos los elementos que tienen una clase específica.
 - `getElementsByTagName(tagName)`: Selecciona todos los elementos con una etiqueta específica.
+- `querySelector(selector)`: Selecciona el primer elemento que coincide con un selector CSS.
+- `querySelectorAll(selector)`: Selecciona todos los elementos que coinciden con un selector CSS.
+
+## Manipulación de atributos y contenido
+Una vez que hemos seleccionado un elemento del DOM, podemos manipular sus atributos y contenido utilizando JavaScript.
+
+Para manipular atributos, podemos usar los métodos `getAttribute`, `setAttribute`, y `removeAttribute`.
+- `getAttribute(nombreAtributo)`: Obtiene el valor de un atributo específico.
+- `setAttribute(nombreAtributo, valor)`: Establece el valor de un atributo específico.
+- `removeAttribute(nombreAtributo)`: Elimina un atributo específico.
+
+Para manipular el contenido de un elemento, podemos usar las propiedades `innerHTML`, `textContent`, y `innerText`.
+- `innerHTML`: Permite obtener o establecer el contenido HTML de un elemento.
+- `textContent`: Permite obtener o establecer el contenido de texto de un elemento, ignorando las etiquetas HTML.
+- `innerText`: Similar a `textContent`, pero tiene en cuenta el estilo CSS y no incluye el texto oculto.
 
 ## Manipulación de estilos y clases
 Una vez que hemos seleccionado un elemento del DOM, podemos manipular sus estilos y clases utilizando las propiedades `style` y `classList` del elemento. Por ejemplo:
@@ -89,5 +104,16 @@ function miFuncion() {
 ```
 
 En este ejemplo, cuando el usuario hace clic en el botón con el ID `miBoton`, se ejecuta la función `miFuncion`, que muestra una alerta.
+
+Algunos de los eventos más comunes son:
+- `click`: Se activa cuando se hace clic en el elemento.
+- `mouseover`: Se activa cuando el puntero del ratón se mueve sobre el elemento.
+- `mouseout`: Se activa cuando el puntero del ratón se mueve fuera del elemento.
+- `submit`: Se activa cuando se envía un formulario. Solo se aplica a elementos `<form>`.
+- `input`: Se activa cuando el valor de un campo de entrada cambia. Solo se aplica a elementos `<input>`, `<textarea>`, y `<select>`.
+- `change`: Se activa cuando el valor de un campo de entrada pierde el foco y ha cambiado.
+- `focus`: Se activa cuando un elemento recibe el foco.
+- `blur`: Se activa cuando un elemento pierde el foco.
+- `DOMContentLoaded`: Se activa cuando el DOM ha sido completamente cargado. Solo se aplica al objeto `document`. Preferible usar el atributo `defer` en la etiqueta `<script>` para este propósito.
 
 ## Formularios
