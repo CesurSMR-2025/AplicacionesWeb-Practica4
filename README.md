@@ -135,3 +135,28 @@ Además, los botones tienen otra serie de atributos importantes como:
 - `name`: Define el nombre del botón, que se envía junto con los datos del formulario.
 - `value`: Define un valor valor del botón, que se envía junto con los datos del formulario.
 - `form`: Asocia el botón a un formulario específico mediante el ID del formulario. (Los formularios los veremos mas adelante)
+
+Tener en cuenta que a parte de botones se pueden crear otros elementos interactivos como sliders, checkboxes, radio buttons, etc., utilizando las etiquetas `<input>`, `<select>`, y `<textarea>`. Estos elementos también pueden tener eventos y listeners asociados para manejar la interacción del usuario. 
+
+## Entrega
+
+De forma similar a la práctica anterior, esta práctica consiste en crear un proyecto web básico que incluya HTML, CSS y JavaScript. El objetivo es que practiqueis la manipulación del DOM con JavaScript, que es la forma de introducir JavaScript en el frontend.
+
+Podeis utilizar el mismo proyecto de la práctica anterior, simplemente añadiendo una carpeta `js` donde pondréis el archivo JavaScript `app.js` con el que manipularéis el DOM.
+
+Para prácticar la manipulación del DOM, debereis implementar las siguientes funcionalidades en vuestra página web:
+
+- Un botón que, al hacer clic, oculte o muestre un elemento específico de la página.
+- Un botón que, al hacer clic, cambie el color de fondo de la página.
+- Un botón que, al hacer clic, agregue una clase CSS a un elemento específico para cambiar su estilo.
+- Un botón que, al hacer clic, elimine la clase CSS del elemento específico para restaurar su estilo original.
+- Un botón que, al hacer clic, cree un nuevo elemento HTML (por ejemplo, un párrafo) y lo agregue a la página.
+- Un botón que, al hacer clic, elimine un elemento HTML específico de la página.
+- Un campo de texto y un botón que, al hacer clic, agregue el texto del campo como un nuevo elemento de lista en una lista desordenada.
+- Un botón que, al hacer clic, elimine el último elemento de la lista desordenada.
+- Un botón que, al hacer clic, muestre una alerta con el contenido de todos los elementos de la lista desordenada.
+
+
+Respecto a la entrega:
+- La carpeta del proyecto debe llamarse `Practica4-<nombre>-<apellido>`.
+- Debereis entregarla comprimida en un archivo .zip del mismo nombre.
