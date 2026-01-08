@@ -3,6 +3,8 @@
 ## El DOM
 El Document Object Model (DOM) es una representación de la pagina web. Permite a los lenguajes de programación, como JavaScript, interactuar con la pagina web, permitiendo modificar su estructura, estilo y contenido de manera dinámica.
 
+![DOM](images/image.png)
+
 ## Formas de incluir JavaScript en HTML
 Existen varias formas de incluir JavaScript en un documento HTML:
 1. **Dentro de una etiqueta `<script>`**:
@@ -25,7 +27,7 @@ Existen varias formas de incluir JavaScript en un documento HTML:
 
 Normalmente usaremos archivos externos para incluir JavaScript en nuestras páginas web. Ya que de esta forma mantenemos el código HTML y JavaScript separados, lo que facilita el mantenimiento y la legibilidad del código.
 
-Es habitual colocar las etiquetas `<script>` justo antes de la etiqueta de cierre `</body>` para asegurar que el DOM esté completamente cargado antes de que se ejecute el JavaScript. Una opción mejor es usar el atributo `defer` en la etiqueta `<script>`, lo que permite que el navegador descargue el archivo JavaScript mientras sigue procesando el HTML, y ejecuta el script una vez que el DOM esté completamente cargado.
+**Importante:** Es habitual colocar las etiquetas `<script>` justo antes de la etiqueta de cierre `</body>` para asegurar que el DOM esté completamente cargado antes de que se ejecute el JavaScript. Una opción mejor es usar el atributo `defer` en la etiqueta `<script>`, lo que permite que el navegador descargue el archivo JavaScript mientras sigue procesando el HTML, y ejecuta el script una vez que el DOM esté completamente cargado.
 
 
 ```html
@@ -43,6 +45,8 @@ Los metodos más comunes para seleccionar elementos del DOM son los llamados "se
 - `querySelector(selector)`: Selecciona el primer elemento que coincide con un selector CSS.
 - `querySelectorAll(selector)`: Selecciona todos los elementos que coinciden con un selector CSS.
 
+Estos métodos devuelven referencias a los elementos del DOM, que luego podemos almacenar en variables y manipular utilizando JavaScript.
+
 ## Manipulación de atributos y contenido
 Una vez que hemos seleccionado un elemento del DOM, podemos manipular sus atributos y contenido utilizando JavaScript.
 
@@ -55,6 +59,7 @@ Para manipular el contenido de un elemento, podemos usar las propiedades `innerH
 - `innerHTML`: Permite obtener o establecer el contenido HTML de un elemento.
 - `textContent`: Permite obtener o establecer el contenido de texto de un elemento, ignorando las etiquetas HTML.
 - `innerText`: Similar a `textContent`, pero tiene en cuenta el estilo CSS y no incluye el texto oculto.
+Principalmente usaremos `textContent` para manipular el contenido de texto de los elementos.
 
 ## Manipulación de estilos y clases
 Una vez que hemos seleccionado un elemento del DOM, podemos manipular sus estilos y clases utilizando las propiedades `style` y `classList` del elemento. Por ejemplo:
@@ -116,4 +121,17 @@ Algunos de los eventos más comunes son:
 - `blur`: Se activa cuando un elemento pierde el foco.
 - `DOMContentLoaded`: Se activa cuando el DOM ha sido completamente cargado. Solo se aplica al objeto `document`. Preferible usar el atributo `defer` en la etiqueta `<script>` para este propósito.
 
-## Formularios
+## Botones
+Los botones en HTML se crean utilizando la etiqueta `<button>`. Los botones pueden tener diferentes tipos, como `submit`, `reset`, y `button`.
+
+- `<button type="button">`: Un botón genérico que no realiza ninguna acción por defecto.
+- `<button type="reset">`: Cuando se pone dentro de un formulario, restablece todos los campos del formulario a sus valores iniciales. (Los formularios los veremos mas adelante)
+- `<button type="submit">`: Cuando se pone dentro de un formulario, envía los datos del formulario al servidor o a la URL especificada en el atributo `action` del formulario. (Los formularios los veremos mas adelante)
+
+Nota: dentro de un `<form>`, un `<button>` sin atributo `type` se comporta como `type="submit"` por defecto. (Los formularios los veremos mas adelante)
+
+Además, los botones tienen otra serie de atributos importantes como:
+- `disabled`: Deshabilita el botón, impidiendo que el usuario pueda interactuar con él.
+- `name`: Define el nombre del botón, que se envía junto con los datos del formulario.
+- `value`: Define un valor valor del botón, que se envía junto con los datos del formulario.
+- `form`: Asocia el botón a un formulario específico mediante el ID del formulario. (Los formularios los veremos mas adelante)
