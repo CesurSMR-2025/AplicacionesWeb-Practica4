@@ -146,15 +146,7 @@ Podeis utilizar el mismo proyecto de la práctica anterior, simplemente añadien
 
 Para prácticar la manipulación del DOM, debereis implementar las siguientes funcionalidades en vuestra página web:
 
-- Un botón que, al hacer clic, oculte o muestre un elemento específico de la página.
-- Un botón que, al hacer clic, cambie el color de fondo de la página.
-- Un botón que, al hacer clic, agregue una clase CSS a un elemento específico para cambiar su estilo.
-- Un botón que, al hacer clic, elimine la clase CSS del elemento específico para restaurar su estilo original.
-- Un botón que, al hacer clic, cree un nuevo elemento HTML (por ejemplo, un párrafo) y lo agregue a la página.
-- Un botón que, al hacer clic, elimine un elemento HTML específico de la página.
-- Un campo de texto y un botón que, al hacer clic, agregue el texto del campo como un nuevo elemento de lista en una lista desordenada.
-- Un botón que, al hacer clic, elimine el último elemento de la lista desordenada.
-- Un botón que, al hacer clic, muestre una alerta con el contenido de todos los elementos de la lista desordenada.
+
 
 
 Respecto a la entrega:
