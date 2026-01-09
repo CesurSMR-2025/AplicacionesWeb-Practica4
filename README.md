@@ -177,15 +177,16 @@ Si incluiis imágenes, videos u otros recursos, deben ir en carpetas separadas d
 
 Para prácticar la manipulación del DOM, debereis implementar las siguientes funcionalidades en vuestra página web:
 
-- Un botón que, al hacer clic, cambie el texto de un párrafo (<p>).
-- Un parrafo que al pasar el ratón por encima cambie el color color de fondo y al quitar el ratón vuelva al color original. Sin utilizar el hover de CSS (aunque es como se debería hacer normalmente).
-- Un botón que añada un nuevo elemento a una lista (<ul> o <ol>) cada vez que se haga clic en él.
-- Un botón que elimine el último elemento de una lista (<ul> o <ol>) cada vez que se haga clic en él.
-- Un botón que alterne entre mostrar y ocultar una imagen en la página. Utilizando la propiedad `display` de CSS.
-- Dos botones que aumenten y disminuyan un número mostrado.
-- Un campo de texto <input type="text"> que, al escribir, actualice el contenido de un encabezado (<h1>, <h2>, etc.) con el texto introducido.
-- Un campo de texto <textarea> y un <p> que muestre en tiempo real el número de caracteres introducidos en el área de texto.
+1. Un botón que, al hacer clic, cambie el texto de un párrafo (<p>).
+2. Un parrafo que al pasar el ratón por encima cambie el color color de fondo y al quitar el ratón vuelva al color original. Sin utilizar el hover de CSS (aunque es como se debería hacer normalmente).
+3. Un botón que añada un nuevo elemento a una lista (<ul> o <ol>) cada vez que se haga clic en él.
+4. Un botón que elimine el último elemento de una lista (<ul> o <ol>) cada vez que se haga clic en él.
+5. Un botón que alterne entre mostrar y ocultar una imagen en la página. Utilizando la propiedad `display` de CSS.
+6. Dos botones que aumenten y disminuyan un número mostrado.
+7. Un campo de texto <input type="text"> que, al escribir, actualice el contenido de un encabezado (<h1>, <h2>, etc.) con el texto introducido.
+8. Un campo de texto <textarea> y un <p> que muestre en tiempo real el número de caracteres introducidos en el área de texto.
 
+Pondme todos los puntos en el `index.html` separado por titulos. Tipo `<h2>Parte 1</h2>`, `<h2>Parte 2</h2>`, etc. para que pueda ver claramente cada punto. En el javascript, poned comentarios indicando a que punto corresponde cada parte del código. Tipo `// Parte 1`, `// Parte 2`, etc.
 
 Respecto a la entrega:
 - La carpeta del proyecto debe llamarse `Practica4-<nombre>-<apellido>`.
