@@ -127,6 +127,7 @@ function miFuncion() {
 En este ejemplo, cuando el usuario hace clic en el botón con el ID `miBoton`, se ejecuta la función `miFuncion`, que muestra una alerta.
 
 Algunos de los eventos más comunes son:
+
 - `click`: Se activa cuando se hace clic en el elemento.
 - `mouseover`: Se activa cuando el puntero del ratón se mueve sobre el elemento.
 - `mouseout`: Se activa cuando el puntero del ratón se mueve fuera del elemento.
@@ -146,6 +147,7 @@ Los botones en HTML se crean utilizando la etiqueta `<button>`. Los botones pued
 Nota: dentro de un `<form>`, un `<button>` sin atributo `type` se comporta como `type="submit"` por defecto. (Los formularios los veremos mas adelante)
 
 Además, los botones tienen otra serie de atributos importantes como:
+
 - `disabled`: Deshabilita el botón, impidiendo que el usuario pueda interactuar con él.
 - `name`: Define el nombre del botón, que se envía junto con los datos del formulario.
 - `value`: Define un valor valor del botón, que se envía junto con los datos del formulario.
@@ -157,6 +159,7 @@ Tener en cuenta que a parte de botones se pueden crear otros elementos interacti
 Los elementos `<div>` y `<span>` son contenedores genéricos en HTML que se utilizan para agrupar otros elementos y aplicarles estilos o scripts. Por defecto, no tienen funcionalidad especial ni son visibles. Pero esto se puede cambiar mediante CSS y JavaScript. Estos elementos HTML son como "lienzos en blanco" que podemos usar para estructurar y diseñar nuestras páginas web.
 
 La principal diferencia entre `<div>` y `<span>` es su comportamiento de visualización:
+
 - `<div>` es un elemento de bloque (block-level), lo que significa que ocupa todo el ancho disponible y comienza en una nueva línea. Se utiliza para agrupar elementos más grandes o secciones completas de contenido.
 - `<span>` es un elemento en línea (inline), lo que significa que solo ocupa el espacio necesario para su contenido y no comienza en una nueva línea. Se utiliza para agrupar partes pequeñas de texto o elementos dentro de una línea.
 
