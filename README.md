@@ -66,11 +66,13 @@ Algunos atributos y metodos interesantes de `HTMLElement` son:
 Una vez que hemos seleccionado un elemento del documento, podemos manipular sus atributos y contenido utilizando JavaScript.
 
 Para manipular atributos, podemos usar los métodos `getAttribute`, `setAttribute`, y `removeAttribute`.
+
 - `getAttribute(nombreAtributo)`: Obtiene el valor de un atributo específico.
 - `setAttribute(nombreAtributo, valor)`: Establece el valor de un atributo específico.
 - `removeAttribute(nombreAtributo)`: Elimina un atributo específico.
 
 Para manipular el contenido de un elemento, podemos usar las propiedades `innerHTML`, `textContent`, y `innerText`.
+
 - `innerHTML`: Permite obtener o establecer el contenido HTML de un elemento.
 - `textContent`: Permite obtener o establecer el contenido de texto de un elemento, ignorando las etiquetas HTML.
 - `innerText`: Similar a `textContent`, pero tiene en cuenta el estilo CSS y no incluye el texto oculto.
