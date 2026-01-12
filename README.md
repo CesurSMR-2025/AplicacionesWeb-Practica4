@@ -57,9 +57,12 @@ Algunos atributos y metodos interesantes de `HTMLElement` son:
 - `className`: Las clases CSS del elemento como una cadena de texto.
 - `classList`: Una lista de las clases CSS del elemento, que permite agregar, eliminar o alternar clases.
 - `style`: Permite acceder y modificar los estilos CSS del elemento.
-- `children`: Una colección de los elementos hijos del elemento.
-- `parentNode`: El elemento padre del elemento.
+- `children`: Una lista de los elementos hijos del elemento.
+- `parentElement`: El elemento padre del elemento.
+- `firstElementChild`: El primer elemento hijo del elemento. (primer elemento de `children`, children[0])
+- `lastElementChild`: El último elemento hijo del elemento. (ultimo elemento de `children`, children[children.length - 1])
 - `textContent`: El contenido de texto del elemento.
+-  `value`: El valor del elemento, utilizado en elementos de formulario como `<input>`, `<textarea>`, y `<select>`.
 
 
 ## Manipulación de elementos del documento
